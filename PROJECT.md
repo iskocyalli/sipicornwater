@@ -314,7 +314,7 @@ sipicorn/
 > **Apple Developer hesabı henüz yok:** Simülatörde her şey çalışır. Ücretsiz "Personal Team" ile kendi iPhone'una da yükleyebilirsin (7 günlük imza), ancak HealthKit gibi bazı yetenekler ücretli hesap gerektirebilir. Bu yüzden Faz 1'de HealthKit ve App Group'u en sona bırakıyoruz. App Store'a göndermeden önce hesap alınacak.
 
 ### 6.5 Geliştirme akışı
-1. Claude kodu yazar ve GitHub'a (`iskocyalli/sipicorn`) push'lar
+1. Claude kodu yazar ve GitHub'a (`iskocyalli/sipicornwater`) push'lar
 2. Mac'te: `git pull` → `xcodegen` → Xcode'da ▶️ (simülatör: iPhone 16 Pro)
 3. Ekran görüntüsü / hata çıktısı Claude'a gönderilir → düzeltme
 4. Linux ortamında derleme yapılamadığı için **her faz sonunda Mac'te doğrulama** şart
@@ -360,7 +360,7 @@ Kredi biterse ek kredi satın alma kararı tamamen kullanıcıya aittir; uygulam
 
 ### Faz 0 — Kurulum ✅ / ⏳
 - [x] Planlama ve `PROJECT.md`
-- [ ] GitHub reposu (`iskocyalli/sipicorn`)
+- [x] GitHub reposu (`iskocyalli/sipicornwater`)
 - [ ] XcodeGen iskeleti, Mac'te ilk "Hello Sippy" çalıştırma
 
 ### Faz 1 — Çekirdek (MVP)
